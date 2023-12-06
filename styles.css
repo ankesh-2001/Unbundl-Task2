@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    /* Adjusted container width for better spacing */
+    text-align: center;
+}
+
+#chocolates {
+    display: flex;
+    overflow-x: auto;
+    /* Enable horizontal scrolling if chocolates exceed container width */
+    margin: 20px 0;
+}
+
+.chocolate {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 67px 20px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    background-color: #fff;
+}
+
+.chocolate:hover {
+    border-color: #e44d26;
+}
+
+.chocolate img {
+    width: 100px;
+    /* Adjusted image width */
+    border-radius: 10px;
+}
+
+.chocolate p {
+    margin: 10px 0 0;
+}
+
+#totalPrice {
+    font-size: 1.4em;
+    margin-top: 34px;
+    color: #333;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}

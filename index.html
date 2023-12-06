@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Selecter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <h2>Choose Your Chocolate Pack</h2>
+        <div id="chocolates">
+            <!-- Sample chocolates with images -->
+            <div class="chocolate" onclick="toggleChocolate(this)">
+                <img src="12.jpg" alt="Chocolate A">
+                <p>Chocolate A</p>
+            </div>
+            <div class="chocolate" onclick="toggleChocolate(this)">
+                <img src="2.jpg" alt="Chocolate B">
+                <p>Chocolate B</p>
+            </div>
+            <div class="chocolate" onclick="toggleChocolate(this)">
+                <img src="3.jpg" alt="Chocolate C">
+                <p>Chocolate C</p>
+            </div>
+            <div class="chocolate" onclick="toggleChocolate(this)">
+                <img src="4.jpeg" alt="Chocolate D">
+                <p>Chocolate D</p>
+            </div>
+            <div class="chocolate" onclick="toggleChocolate(this)">
+                <img src="5.jpeg" alt="Chocolate E">
+                <p>Chocolate E</p>
+            </div>
+            <div class="chocolate" onclick="toggleChocolate(this)">
+                <img src="6.jpeg" alt="Chocolate F">
+                <p>Chocolate F</p>
+            </div>
+            <div class="chocolate" onclick="toggleChocolate(this)">
+                <img src="7.jpeg" alt="Chocolate G">
+                <p>Chocolate G</p>
+            </div>
+            <div class="chocolate" onclick="toggleChocolate(this)">
+                <img src="8.jpeg" alt="Chocolate H">
+                <p>Chocolate H</p>
+            </div>
+            <div class="chocolate" onclick="toggleChocolate(this)">
+                <img src="13.jpg" alt="Chocolate I">
+                <p>Chocolate I</p>
+            </div>
+            <!-- Add more chocolates as needed -->
+        </div>
+        <div id="totalPrice">Total Price: Rs.0.00</div>
+        <button id="cartButton" onclick="checkout()">View Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
